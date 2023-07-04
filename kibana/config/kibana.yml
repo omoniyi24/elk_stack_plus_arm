@@ -10,6 +10,7 @@ monitoring.ui.container.elasticsearch.enabled: true
 monitoring.ui.container.logstash.enabled: true
 
 ## X-Pack security credentials
+xpack.encryptedSavedObjects.encryptionKey: 123456789012345678901234567890AB
 #
 elasticsearch.username: kibana_system
 elasticsearch.password: ${KIBANA_SYSTEM_PASSWORD}
@@ -79,3 +80,5 @@ xpack.fleet.agentPolicies:
                 value: 0.0.0.0:8200
               - name: url
                 value: http://apm-server:8200
+
+  

@@ -1,1 +1,9 @@
 /state/
+.DS_Store
+elasticsearch/.DS_Store
+elasticsearch/_state/
+elasticsearch/node.lock
+elasticsearch/nodes
+elasticsearch/snapshot_cache/
+kibana/.DS_Store
+setup/.done
